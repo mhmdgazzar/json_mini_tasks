@@ -1,3 +1,7 @@
+import 'dart:convert';
+
+import '../domain/btc_price.dart';
+
 void main() {
   String json4 = """
 {
@@ -35,4 +39,11 @@ void main() {
 """;
 
   // Erstelle eine Instanz der Klasse BtcPrice basierend auf dem JSON-String json4 (in Euro)
+
+  Map<String, dynamic> m4 = jsonDecode(json4);
+
+  BtcPrice btc = BtcPrice(
+      currency: m4['bpi']['EUR']['code'], price: m4['bpi']['EUR']['rate']);
+
+  print(btc);
 }
