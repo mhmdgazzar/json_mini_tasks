@@ -1,3 +1,7 @@
+import 'dart:convert';
+
+import '../domain/news.dart';
+
 void main() {
   String json7 = """
 {
@@ -22,4 +26,11 @@ void main() {
 """;
 
   // Erstelle eine Instanz der Klasse News basierend auf dem JSON-String json7
+
+  Map<String, dynamic> m7 = jsonDecode(json7);
+
+  News n7 =
+      News(title: m7['news'][0]['title'], source: m7['news'][0]['source']);
+
+  print(n7);
 }
