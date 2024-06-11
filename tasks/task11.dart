@@ -1,3 +1,7 @@
+import 'dart:convert';
+
+import '../domain/movie.dart';
+
 void main() {
   String json11 = """
 {
@@ -34,4 +38,13 @@ void main() {
 """;
 
   // Erstelle eine Instanz der Klasse Movie basierend auf dem JSON-String json11
+
+  Map<String, dynamic> m11 = jsonDecode(json11);
+
+  Movie mov11 = Movie(
+      title: m11['movies'][2]['title'],
+      rating: m11['movies'][2]['details']['rating'],
+      year: m11['movies'][2]['details']['year']);
+
+  print(mov11);
 }
