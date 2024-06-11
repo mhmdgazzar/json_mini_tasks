@@ -7,7 +7,7 @@ void main() {
       "chartName": "Ethereum",
       "btcPr": {
           "rate": "4,581.537",
-          "symbol": "&euro;",
+          "symbol": "&euro;"
       }
     },
     {
@@ -15,7 +15,7 @@ void main() {
       "chartName": "Bitcoin",
       "btcPr": {
           "rate": "64,581.537",
-          "symbol": "&euro;",
+          "symbol": "&euro;"
       }
     }
   ]

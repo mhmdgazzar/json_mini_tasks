@@ -1,7 +1,7 @@
 void main() {
   String json14 = """
 {
-  users: [
+  "users": [
     {
       "name": "John Doe",
       "age": 30,
@@ -12,6 +12,7 @@ void main() {
       "age": 25,
       "ip": "100.44.94.1"
     }
+  ]
 }
 """;
 

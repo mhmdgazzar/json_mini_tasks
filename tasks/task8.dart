@@ -4,7 +4,7 @@ void main() {
   "newsOutlets": [
     {
       "title": "The New York Times",
-      "source": "The New York Times Company"
+      "source": "The New York Times Company",
       "latestNews": [
         {
           "title": "Germany's Scholz says Russia must pay high price if it invades Ukraine",

@@ -1,10 +1,9 @@
 void main() {
   String json12 = """
 {
-  "ratings": [
-    {
-      rating: "9",
-      movies: [
+  "ratings": {
+      "rating": "9",
+      "movies": [
         {
           "title": "The Shawshank Redemption",
           "year": 1994,
@@ -25,10 +24,11 @@ void main() {
           "duration": "2h 32min",
           "genre": "Action, Crime, Drama",
           "rating": 9.0
-        }]
-    }, 
+        }
+      ]
+ 
     
-  ]
+  }
 }
 """;
 

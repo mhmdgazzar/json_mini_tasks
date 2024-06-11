@@ -5,7 +5,7 @@ void main() {
   "chartName": "Bitcoin",
   "btcPricing": {
       "rate": "64,581.537",
-      "symbol": "&euro;",
+      "symbol": "&euro;"
   }
 }
 """;

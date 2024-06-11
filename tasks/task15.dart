@@ -10,7 +10,7 @@ void main() {
       "ip-address": {
         "host": "40.110.5.5",
         "port": 8080
-      },
+      }
     },
     {
       "name": "Topson",
@@ -19,7 +19,7 @@ void main() {
       "ip-address": {
         "host": "200.100.0.0",
         "port": 8080
-      },
+      }
     },
     {
       "name": "SumaiL",
@@ -28,7 +28,7 @@ void main() {
       "ip-address": {
         "host": "33.9.122.90",
         "port": 8080
-      },
+      }
     }
   ]
 }

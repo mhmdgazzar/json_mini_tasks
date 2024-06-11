@@ -6,7 +6,7 @@ void main() {
       "first": "Katherine",
       "last": "Gill"
     },
-    "city": "Lloyd
+    "city": "Lloyd",
     "zip": "08075"
   },
   "phone": "1-202-555-0191",
