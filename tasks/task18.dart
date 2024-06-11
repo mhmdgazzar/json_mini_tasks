@@ -1,3 +1,7 @@
+import 'dart:convert';
+
+import '../domain/dog.dart';
+
 void main() {
   String json18 = """
 {
@@ -26,4 +30,13 @@ void main() {
 """;
 
   // Erstelle eine Instanz der Klasse Dog basierend auf dem JSON-String json18
+
+  Map<String, dynamic> m18 = jsonDecode(json18);
+
+  Dog dog18 = Dog(
+      name: m18['animals'][1]['name'],
+      breed: m18['animals'][1]['breed'],
+      age: m18['animals'][1]['age']);
+
+  print(dog18);
 }
